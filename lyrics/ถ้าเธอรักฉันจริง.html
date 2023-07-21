@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lyrics</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #0056b3; /* Link color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+a:visited {
+  color: #6c757d; /* Visited link color */
+}
+
+
+    h3 {
+      color: #333;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    div {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 50px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+  </style>
+</head>
+<body>
+  <div>
+    <h3><a href="https://www.youtube.com/watch?v=1dRYGPo1V6Q&list=RD1dRYGPo1V6Q&start_radio=1">ถ้าเธอรักฉันจริง</a></h3>
+    <p>ฉันรู้ดีว่าทุกที ที่เธอมองมาที่ฉัน</p>
+    <p>เธอพร้อมจะทำทุกทาง ก็เพื่อให้เราอยู่ด้วยกัน</p>
+    <p>สายตาและมือของเธอ ช่างดูอ่อนโยนต่อฉัน</p>
+    <p>(แต่ฉันไม่อยากให้เธอ ต้องเสียใจ)</p>
+    <p>เพราะว่า</p>
+    <p>ฉันไม่เคยลืม ฉันไม่เคยลืมเขาไป สักวัน</p>
+    <p>ยังคิดถึงเขา ยังคิดถึงเขา</p>
+    <p>ทั้งที่เธออยู่กับฉัน</p>
+    <p>ฉันใจร้ายแบบนี้</p>
+    <p>ก็ อย่าทนเลยคนดี</p>
+    <p>อยาก ให้เธอไปเจอคนที่ดี</p>
+    <p>'Cause sometimes I look in her eyes</p>
+    <p>And that's where I find a glimpse of us</p>
+    <p>And I try to fall for her touch</p>
+    <p>But I'm thinking of the way it was</p>
+    <p>Said I'm fine and said I moved on</p>
+    <p>I'm only here passing time in her arms</p>
+    <p>Hoping I'll find</p>
+    <p>A glimpse of us</p>
+    <p>Tell me he savors your glory</p>
+    <p>Does he laugh the way I did?</p>
+    <p>Is this a part of your story?</p>
+    <p>One that I had never lived</p>
+    <p>Maybe one day you'll feel lonely</p>
+    <p>And in his eyes, you'll get a glimpse</p>
+    <p>Maybe you'll start slipping slowly</p>
+    <p>And find me again</p>
+    <p>When you're out of sight</p>
+    <p>In my mind</p>
+    <p>'Cause sometimes I look in her eyes</p>
+    <p>And that's where I find a glimpse of us</p>
+    <p>And I try to fall for her touch</p>
+    <p>But I'm thinking of the way it was</p>
+    <p>Said I'm fine and said I moved on</p>
+    <p>I'm only here passing time in her arms</p>
+    <p>Hoping I'll find</p>
+    <p>A glimpse of us</p>
+    <p>(Oh)</p>
+    <p>ถ้าเธอรักฉันจริง</p>
+    <p>ได้โปรดทิ้งฉันไป</p>
+    <p>ได้โปรดเดินหนี ฉันไปให้ไกล</p>
+    <p>อย่ากอดฉันไว้เลย</p>
+    <p>อย่าอยู่กับฉันเลย</p>
+    <p>คนที่ลืมแฟนเก่าไม่ได้แบบฉัน</p>
+    <p>ไม่ควร ได้รับความรักจากใคร</p>
+    <p>เพราะว่าทุกที ที่ฉันมองหน้าเธอ</p>
+    <p>มันก็เบลอ (กลายเป็นเขา)</p>
+    <p>ฉันยังคงมีแต่เขา</p>
+    <p>ในใจฉันยังคงมีแต่เขา</p>
+    <p>ก็เพราะว่าทุกที ที่ฉันกอดเธอไว้</p>
+    <p>ฉันแค่เหงา</p>
+    <p>ไม่อยากให้เธอต้องปวดร้าว</p>
+    <p>รีบไปจากฉันเถอะเธอ</p>
+    <audio controls>
+      <source src="audio/ถ้าเธอรักฉันจริง.mp3" type="audio/mpeg">
+    </audio>
+    <div class="rating">
+  <input type="radio" id="star5" name="rate" value="5">
+  <label for="star5" title="text"></label>
+  <input type="radio" id="star4" name="rate" value="4">
+  <label for="star4" title="text"></label>
+  <input checked="" type="radio" id="star3" name="rate" value="3">
+  <label for="star3" title="text"></label>
+  <input type="radio" id="star2" name="rate" value="2">
+  <label for="star2" title="text"></label>
+  <input type="radio" id="star1" name="rate" value="1">
+  <label for="star1" title="text"></label>
+</div>
+  </div>
+</body>
+</html>

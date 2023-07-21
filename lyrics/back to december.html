@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lyrics</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #0056b3; /* Link color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+a:visited {
+  color: #6c757d; /* Visited link color */
+}
+
+
+    h3 {
+      color: #333;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    div {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 50px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+  </style>
+</head>
+<body>
+  <div>
+    <h3><a href="https://www.youtube.com/watch?v=QUwxKWT6m7U">Back to December - Taylor swift</a></h3>
+    <p>I'm so glad you made time to see me</p>
+    <p>How's life? Tell me, how's your family?</p>
+    <p>I haven't seen them in a while</p>
+    <p>You've been good, busier than ever</p>
+    <p>We small talk, work and the weather</p>
+    <p>Your guard is up and I know why</p>
+    <p>Because the last time you saw me</p>
+    <p>Is still burned in the back of your mind</p>
+    <p>You gave me roses and I left them there to die</p>
+    <p>So this is me swallowin' my pride</p>
+    <p>Standin' in front of you sayin' I'm sorry for that night</p>
+    <p>And I go back to December all the time</p>
+    <p>It turns out freedom ain't nothin' but missin' you</p>
+    <p>Wishin' I'd realized what I had when you were mine</p>
+    <p>I'd go back to December, turn around and make it alright</p>
+    <p>I go back to December all the time</p>
+    <p>These days, I haven't been sleepin'</p>
+    <p>Stayin' up playin' back myself leavin'</p>
+    <p>When your birthday passed and I didn't call</p>
+    <p>Then I think about summer, all the beautiful times</p>
+    <p>I watched you laughin' from the passenger's side</p>
+    <p>And realized I loved you in the fall</p>
+    <p>And then the cold came, the dark days</p>
+    <p>When fear crept into my mind</p>
+    <p>You gave me all your love and all I gave you was goodbye</p>
+    <p>So this is me swallowin' my pride</p>
+    <p>Standin' in front of you sayin' I'm sorry for that night</p>
+    <p>And I go back to December all the time</p>
+    <p>It turns out freedom ain't nothin' but missin' you</p>
+    <p>Wishin' I'd realized what I had when you were mine</p>
+    <p>I'd go back to December, turn around and change my own mind</p>
+    <p>I go back to December all the time</p>
+    <p>I miss your tan skin, your sweet smile</p>
+    <p>So good to me, so right</p>
+    <p>And how you held me in your arms that September night</p>
+    <p>The first time you ever saw me cry</p>
+    <p>Maybe this is wishful thinkin'</p>
+    <p>Probably mindless dreamin'</p>
+    <p>But if we loved again, I swear I'd love you right</p>
+    <p>I'd go back in time and change it, but I can't</p>
+    <p>So if the chain is on your door, I understand</p>
+    <p>But this is me swallowin' my pride</p>
+    <p>Standin' in front of you sayin' I'm sorry for that night</p>
+    <p>And I go back to December</p>
+    <p>It turns out freedom ain't nothin' but missin' you</p>
+    <p>Wishin' I'd realized what I had when you were mine</p>
+    <p>I'd go back to December, turn around and make it alright</p>
+    <p>I'd go back to December, turn around and change my own mind</p>
+    <p>I go back to December all the time</p>
+    <p>All the time</p>
+    <audio controls>
+      <source src="audio/Back To December.mp3" type="audio/mpeg">
+    </audio>
+    <div class="rating">
+  <input type="radio" id="star5" name="rate" value="5">
+  <label for="star5" title="text"></label>
+  <input type="radio" id="star4" name="rate" value="4">
+  <label for="star4" title="text"></label>
+  <input checked="" type="radio" id="star3" name="rate" value="3">
+  <label for="star3" title="text"></label>
+  <input type="radio" id="star2" name="rate" value="2">
+  <label for="star2" title="text"></label>
+  <input type="radio" id="star1" name="rate" value="1">
+  <label for="star1" title="text"></label>
+</div>
+  </div>
+</body>
+</html>
